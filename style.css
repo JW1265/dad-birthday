@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: orange;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+footer {
+    height: 300px;
+    width: auto;
+    background-image: url(DSCF4276.JPG);
+    background-size: cover;
+}
+main{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hfather {
+    height: auto;
+    width: auto;
+    font-size: 40px;
+    text-align: center;
+}
+h1 {
+    color: red;
+}
+body {
+    animation: team 3s infinite;
+}
+@keyframes team {
+    from{background-color: orange}
+    25%{background-color: rgb(255, 230, 0)}
+    50%{background-color: rgb(217, 255, 0)}
+    75%{background-color: rgb(255, 230, 0)}
+    to{background-color: orange}
+}
+.inline {
+    display: inline-block;
+}
+.dad {
+    height: 965px;
+    width: 688px;
+    background-image: url(DSCF4227.JPG);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
